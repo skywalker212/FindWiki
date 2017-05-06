@@ -2,29 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>FindWiki</title>
-    <link rel="icon" href="resources/main.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <title>FindWiki</title>
+  <link rel="icon" href="resources/main.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="text-center">FindWiki</h1>
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <button type="button" name="button" class="random btn btn-primary"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Article</a></button>
-            </div>
-            <div class="col-md-6 text-center">
-                <button type="button" name="button" class="src-btn btn btn-primary" target="_blank">Search</button>
-            </div>
+  <div class="container">
+    <h1 class="text-center">FindWiki</h1>
+    <div class="search-main text-center">
+      <form class="sub-src">
+        <div class="input-group">
+          <input type="text" class="form-control text-content" placeholder="Search">
+          <div class="input-group-btn">
+            <button class="btn btn-default src-btn" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+          </div>
         </div>
+      </form>
     </div>
-    <script type="text/javascript" src="script/script.js">
-    </script>
+    <div class="text-center">
+      <button type="button" name="button" class="random btn btn-primary"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Article</a></button>
+    </div>
+  </div>
+  <script type="text/javascript" src="script/script.js">
+  </script>
 </body>
 
 </html>
