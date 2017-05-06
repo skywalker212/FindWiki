@@ -12,7 +12,6 @@ $(document).ready(function() {
       type: 'POST',
       headers: {
         'Api-User-Agent': 'Example/1.0',
-        'Access-Control-Allow-Origin': *
       },
       success: function(data) {
         // do something with data
