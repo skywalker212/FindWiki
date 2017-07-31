@@ -9,3 +9,13 @@
   width: 30%;
   display: inline-block;
 }
+
+.linebreak{
+  width: 80%;
+  height: 2px;
+  background-color: rgb(166, 166, 173);
+}
+
+.header {
+  font-family: serif;
+}
