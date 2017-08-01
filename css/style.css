@@ -26,5 +26,39 @@
 }
 
 .result{
+  margin-top: 10px;
+  text-overflow: clip;
+  padding: 3px 10px 3px 10px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 3px;
+}
 
+.result:hover{
+  box-shadow: 3px 3px 2px rgb(213, 213, 213);
+  background-color: rgb(220, 220, 220);
+}
+
+.result h4{
+  margin-bottom: -0.5px;
+}
+
+.result p{
+  color: rgb(57, 57, 57);
+}
+
+.wait{
+  font-family: 'roboto';
+  align-content: center;
+}
+
+.link{
+  color: black;
+}
+
+.link:visited{
+  color: inherit;
+}
+
+.link:hover{
+  color: black;
 }
