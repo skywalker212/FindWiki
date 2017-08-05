@@ -22,6 +22,7 @@ $(document).ready(function() {
           if (data[2][i] == "") data[2][i] = "No Discription Available";
           htmlString += "<a class='link' style='text-decoration:none' href='" + data[3][i] + "' target='_null'>" + "<div class='result'>" + "<h4>" + data[1][i] + "</h4><p align='justify'>" + data[2][i] + "</p></div></a>";
         }
+        if (data[1].length == 0) htmlString = "<p class='result'>No Results Found</p>"
         $(".search-results").html(htmlString);
         $(".footer").css("visibility", "visible");
       }
