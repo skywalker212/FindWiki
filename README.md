@@ -8,7 +8,7 @@ This a web page that searches for wikipidia articles for a given query.
 
 I'll be using various APIs to get the job done.  
 
-You can see the deployed website by clicking [here](https://findwiki-888c0.firebaseapp.com)  
+You can see the deployed website by clicking [here](https://findwiki-dc4aa.firebaseapp.com)  
 
 You can drop me a mail at akashgajjar8@gmail.com for any suggestions or queries.  
 
